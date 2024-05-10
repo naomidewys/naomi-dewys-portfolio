@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  background-color: RGB(255, 238, 224);
+}
+
+header {
+  text-align: center;
+}
+
+h1 {
+  padding-top: 170px;
+  font-size: 70px;
+  font-family: "Julius Sans One", sans-serif;
+  margin: 0;
+}
+
+h2 {
+  padding-bottom: 170px;
+  font-size: 50px;
+  margin-top: 10px;
+  margin-bottom: 0;
+  font-family: "Urbanist", sans-serif;
+  font-weight: 400;
+}
+
+p {
+  text-align: center;
+  font-family: "Urbanist", sans-serif;
+  font-size: 18px;
+}
+
+.subheading {
+  font-family: "Julius Sans One", sans-serif;
+  text-align: center;
+  font-size: 30px;
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.main-background {
+  background: linear-gradient(
+    to top,
+    rgba(255, 238, 224, 0.91) 0%,
+    rgba(227, 174, 247, 0.8) 100%
+  );
+}
+
+p.icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.fa-brands,
+.fa-solid {
+  font-size: 40px;
+  padding: 0 10px;
+}
