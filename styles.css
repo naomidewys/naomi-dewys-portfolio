@@ -29,6 +29,25 @@ p {
   font-size: 18px;
 }
 
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.link {
+  color: rgb(137, 4, 185);
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.section {
+  padding-bottom: 40px;
+}
+
 .subheading {
   font-family: "Julius Sans One", sans-serif;
   text-align: center;
@@ -55,4 +74,12 @@ p.icon {
 .fa-solid {
   font-size: 40px;
   padding: 0 10px;
+}
+
+.socials {
+  line-height: 30px;
+}
+
+.email {
+  font-size: 22px;
 }
