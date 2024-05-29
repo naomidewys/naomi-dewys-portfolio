@@ -92,3 +92,7 @@ a:hover {
 .email {
   font-size: 22px;
 }
+
+img {
+  max-height: 400px;
+}
