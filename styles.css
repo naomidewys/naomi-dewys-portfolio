@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background-color: RGB(255, 238, 224);
+  background-color: rgb(255, 255, 255, 0.91);
 }
 
 header {
@@ -12,15 +12,16 @@ h1 {
   font-size: 70px;
   font-family: "Julius Sans One", sans-serif;
   margin: 0;
+  color: white;
 }
 
 h2 {
   padding-bottom: 170px;
-  font-size: 50px;
+  font-size: 40px;
   margin-top: 10px;
   margin-bottom: 0;
   font-family: "Urbanist", sans-serif;
-  font-weight: 400;
+  font-weight: 600;
 }
 
 p {
@@ -52,6 +53,7 @@ a {
 
 a:hover {
   text-decoration: underline;
+  color: rgb(137, 4, 185);
 }
 
 .link {
@@ -75,8 +77,8 @@ a:hover {
 .main-background {
   background: linear-gradient(
     to top,
-    rgba(255, 238, 224, 0.91) 0%,
-    rgba(227, 174, 247, 0.8) 100%
+    rgba(255, 255, 255, 0.91) 0%,
+    rgb(96, 34, 177) 100%
   );
 }
 
@@ -94,5 +96,13 @@ a:hover {
 }
 
 img {
-  max-height: 400px;
+  max-height: 350px;
+}
+
+div .project-description > p {
+  font-size: 16px;
+}
+
+.row {
+  padding-bottom: 5px;
 }
