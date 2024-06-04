@@ -28,6 +28,22 @@
   </head>
   <body>
     <div class="main-background">
+      <nav class="fixed-top">
+        <ul class="nav-links">
+          <li>
+            <a class="active nav-link" href="index.html">Home</a>
+          </li>
+          <li>
+            <a class="nav-link" href="index.html#about">About</a>
+          </li>
+          <li>
+            <a class="nav-link" href="index.html#projects">Projects</a>
+          </li>
+          <li>
+            <a class="nav-link" href="index.html#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
       <header>
         <h1>Hello, I'm Naomi</h1>
         <h2>Web Developer</h2>
@@ -36,7 +52,7 @@
     <div class="body-background">
       <main>
         <div class="about-section section">
-          <p class="subheading">About</p>
+          <p class="subheading" id="about">About</p>
           <p>She/her. Based in Australia.</p>
           <p>
             Web developer with an interest in user experience, accessible
@@ -91,7 +107,7 @@
           </ul>
         </div>
         <div class="projects-section section">
-          <p class="subheading">Projects</p>
+          <p class="subheading" id="projects">Projects</p>
           <div class="portfolio-container text-center">
             <div class="row justify-content-center">
               <div class="col-4">
@@ -212,7 +228,7 @@
           </div>
         </div>
         <div class="contact-section section">
-          <p class="subheading">Contact</p>
+          <p class="subheading" id="contact">Contact</p>
           <p class="socials">
             You can contact me at
             <br />
@@ -238,6 +254,12 @@
           </p>
         </div>
       </main>
+      <footer>
+        Created by
+        <a href="https://www.github.com/naomidewys" target="_blank"
+          >Naomi De Wys</a
+        >
+      </footer>
     </div>
   </body>
 </html>

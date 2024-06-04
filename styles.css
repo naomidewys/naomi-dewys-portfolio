@@ -3,6 +3,11 @@ body {
   background-color: rgb(255, 255, 255, 0.91);
 }
 
+nav {
+  background-color: black;
+  padding: 5px 0;
+}
+
 header {
   text-align: center;
 }
@@ -106,4 +111,24 @@ div .project-description > p {
 .row {
   padding-bottom: 5px;
   margin: 0;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0;
+}
+
+.nav-link {
+  color: white;
+  font-family: "Julius Sans One", sans-serif;
+}
+
+.nav-link:hover {
+  color: white;
+}
+
+footer {
+  text-align: right;
+  font-size: 14px;
 }
