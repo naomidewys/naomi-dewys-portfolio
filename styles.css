@@ -21,7 +21,7 @@ h1 {
 }
 
 h2 {
-  padding-bottom: 170px;
+  padding-bottom: 50px;
   font-size: 40px;
   margin-top: 10px;
   margin-bottom: 0;
@@ -131,4 +131,9 @@ div .project-description > p {
 footer {
   text-align: right;
   font-size: 14px;
+}
+
+.title-image {
+  max-height: 350px;
+  padding-bottom: 50px;
 }
