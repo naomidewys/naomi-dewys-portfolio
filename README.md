@@ -68,3 +68,5 @@ Since I knew I wanted a very minimalist design, I started by outlining what sect
 <h3>Video or Image</h3>
 <p>Images to come.</p>
 <p><a href="https://portfolio-naomi-dewys.netlify.app/" target="_blank">My portfolio</a></p>
+<h3>Acknowledgments</h3>
+<p>Stock image in header section from <a href="https://www.rawpixel.com/image/6284541/png-aesthetic-sticker" target="_blank">rawpixel.com</a></p>
