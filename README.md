@@ -1,8 +1,7 @@
-<h1>README - Portfolio (WIP)</h1>
-<p>This is a work in progress. I'm still finishing off a few additional elements (e.g., responsive design, footer).</p>
+<h1>README - Portfolio</h1>
 <h3>Intro</h3>
-This is a single page portfolio with a minimalistic, streamlined design. There were no specific requirements for this project other than a simple, easy-to-maintain design 
-so that I could practice creating different elements learned in previous workshops (e.g., making a navigation bar from scratch rather than using a pre-constructed design).
+This is a single page portfolio with a minimalistic, streamlined design. I don't have any specific requirements for this project other than wanting a simple, easy-to-maintain design 
+so that I could practice creating the different elements I've learned in previous workshops (e.g., making a navigation bar from scratch rather than using a pre-constructed design).
 This single-page portfolio contains the following sections: Home, About, Projects, and Contact.
 <h3>Tech Stack</h3>
 <ul>
@@ -65,8 +64,23 @@ Since I knew I wanted a very minimalist design, I started by outlining what sect
   <li>Confirming that accessible design practices are consistently applied throughout.</li>
   <li>Perhaps some minor changes to the footer. (I'm still brainstorming this.)</li>
 </ul>
-<h3>Video or Image</h3>
-<p>Images to come.</p>
+<h3>Image</h3>
+<p>Images below are snippets from an iPad Pro view. Screen dimensions are 1024px x 1366px.</p>
+<img src="https://github.com/naomidewys/naomi-dewys-portfolio/assets/146399253/fec72ff0-eb97-4ad7-8687-73a6ad34a5d0" alt="portfolio header" width="700">
+<br>
+<b>Header</b>
+<br>
+<br>
+<img src="https://github.com/naomidewys/naomi-dewys-portfolio/assets/146399253/08d24f36-1564-4fba-a4bc-c1f2a1b58be0" alt="portfolio about" width="700">
+<br>
+<b>About</b>
+<br>
+<br>
+<img src="https://github.com/naomidewys/naomi-dewys-portfolio/assets/146399253/6dcde5dc-45e0-49ad-9f85-5cb61ad2e90d" alt="portfolio projects" width="700">
+<br>
+<b>Projects</b>
+<br>
+<br>
 <p><a href="https://portfolio-naomi-dewys.netlify.app/" target="_blank">My portfolio</a></p>
 <h3>Acknowledgments</h3>
 <p>Stock image in header section from <a href="https://www.rawpixel.com/image/6284541/png-aesthetic-sticker" target="_blank">rawpixel.com</a></p>
