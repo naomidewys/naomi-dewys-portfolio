@@ -61,6 +61,19 @@ a:hover {
   color: rgb(137, 4, 185);
 }
 
+img {
+  max-height: 350px;
+}
+
+div .project-description > p {
+  font-size: 16px;
+}
+
+footer {
+  text-align: right;
+  font-size: 14px;
+}
+
 .link {
   color: rgb(137, 4, 185);
   font-weight: 700;
@@ -100,14 +113,6 @@ a:hover {
   font-size: 22px;
 }
 
-img {
-  max-height: 350px;
-}
-
-div .project-description > p {
-  font-size: 16px;
-}
-
 .row {
   padding-bottom: 5px;
   margin: 0;
@@ -128,12 +133,24 @@ div .project-description > p {
   color: white;
 }
 
-footer {
-  text-align: right;
-  font-size: 14px;
-}
-
 .title-image {
   max-height: 350px;
   padding-bottom: 50px;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    padding-top: 100px;
+    font-size: 60px;
+  }
+  h2 {
+    font-size: 35px;
+  }
+  p {
+    font-size: 16px;
+  }
+  footer {
+    font-size: 12px;
+    padding-right: 5px;
+  }
 }
